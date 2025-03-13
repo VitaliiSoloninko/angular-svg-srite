@@ -8,6 +8,12 @@
   text-align: left;
 }
 
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
 .icon-set {
   display: flex;
   justify-content: center;
@@ -23,6 +29,20 @@
 }
 
 .svg-block {
+  &:hover,
+  &:focus-visible {
+    color: green;
+  }
+}
+
+.dark-mode .svg-block {
+  width: 24px;
+  height: 24px;
+  color: white;
+  transition: color 0.3s ease 0s;
+}
+
+.dark-mode .svg-block {
   &:hover,
   &:focus-visible {
     color: green;
