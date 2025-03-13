@@ -1,0 +1,30 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.icon-set {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.svg-block {
+  width: 24px;
+  height: 24px;
+  color: grey;
+  transition: color 0.3s ease 0s;
+}
+
+.svg-block {
+  &:hover,
+  &:focus-visible {
+    color: green;
+  }
+}
